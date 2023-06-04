@@ -5,7 +5,7 @@ const template = html<StatusBadge>`
   <div class="status-badge">
     ${(x): string => {
       if (x.status > 0) {
-        return 'active';
+        return 'Complete';
       }
       if (x.status < 0) {
         return 'Error';

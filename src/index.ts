@@ -1,3 +1,4 @@
+import { DesignSystem } from '@microsoft/fast-foundation';
 import StatusBadge from './statusBadge/index.js';
 
-export default StatusBadge;
+DesignSystem.getOrCreate().register(StatusBadge);
